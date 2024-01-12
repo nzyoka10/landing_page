@@ -53,7 +53,7 @@ nav ul li a:hover{
 
 .card-1{
     flex: 1;
-   // border: 2px solid yellow;
+   /* border: 2px solid yellow; */
     margin-right: 24px;
 }
 
@@ -79,6 +79,28 @@ button{
 }
 
 .card-1 img{
-    //width: 500px;
-    height: 400px;
+    width: auto; 
+    border-radius: 8px;
+    height: 380px;
+}
+
+.info{
+    text-align: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-1{
+    border: 2px solid orange;
+}
+
+.box-2{
+    border: 2px solid rgb(41, 29, 6);
+}
+
+.box-1{
+    border: 2px solid orange;
 }
