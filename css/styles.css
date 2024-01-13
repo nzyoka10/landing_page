@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
 }
 
 .header{
@@ -46,18 +49,20 @@ nav ul li a:hover{
 
 /** Rows styling*/
 .row-cards{
-    border: 2px solid #3882f6;
+    /* border: 2px solid #3882f6; */
     align-items: center;
     display: flex;
-    //margin: 20px;
+    /* margin: 20px; */
     padding: 20px;
 }
 
 .right{
     margin: 25px;
-    border: 2px solid #ffa500;
-    //padding-left: 12px 22px;
+    padding-left: 40px;
     align-items: center;
+    /*border: 2px solid #ffa500;
+     padding-left: 12px 22px; */
+  
 }
 
 .card-1{
@@ -71,7 +76,7 @@ nav ul li a:hover{
     font-weight: bolder;
     color: #f9faf8;
 }
-p{
+.right p{
     font-size: 18px;
     color: #f9faf8;
 }
@@ -87,6 +92,12 @@ button{
     font-weight: bold;
 }
 
+button:hover{
+    background-color: #ffa500;
+    color: #f9faf8;
+    transition: .3s;
+}
+
 .card-1 img{
     width: auto; 
     border-radius: 8px;
@@ -95,22 +106,34 @@ button{
 
 /** Info styling */
 .info{
-    padding-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    height: 40%;
     text-align: center;
-    //align-items: center;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .box{
     display: flex;
-    padding-top: 17px;
-    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-evenly;
     align-items: center;
+    font-weight: 700;
+    color: #1F2937;
+
     }
 
 .box .box-1{
+    padding-top: 20px;
     height: 200px;
     width: 200px;
     border-radius: 25px;
+
 }
 
 .box-1 img{
@@ -118,6 +141,72 @@ button{
     height: 40%;
     border-radius: 30px;
 }
+
+/** quote section styling */
+.quote{
+    padding-top: 40px;
+    text-align: center;
+    background-color: #e5e7eb;
+    color: #1F2937;    
+}
+
+.quote h4{
+    line-height: 80px;
+    margin: 28px;
+    padding: 28px 32px;
+    font-size: 36px;
+    font-style: italic;   
+    font-weight: 200;
+}
+
+#auth{
+    font-weight: 900;
+    margin-right: 40px;
+    font-style: normal;
+    font-size: 32px;
+}
+
+/** card-action styling */
+.call-action{
+    border: 2px solid red;
+
+    height: 400px;
+    margin: 30px 50px;
+    padding: 24px;
+    align-items: center;
+}
+
+.card-action{
+    background-color: #3882f6;
+    width: 900px;
+    margin: auto;
+    border-radius: 26px;
+    padding: 20px;
+   //align-items: flex-start;
+    //text-align: center;
+}
+
+.btn{
+    border: 1px solid #e5e7eb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
