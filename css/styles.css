@@ -11,7 +11,7 @@
 
 /** Navbar styling start here */
 nav{
-   //border: 2px solid red;
+   /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -46,9 +46,18 @@ nav ul li a:hover{
 
 /** Rows styling*/
 .row-cards{
+    border: 2px solid #3882f6;
+    align-items: center;
     display: flex;
-   margin: 18px;
+    //margin: 20px;
     padding: 20px;
+}
+
+.right{
+    margin: 25px;
+    border: 2px solid #ffa500;
+    //padding-left: 12px 22px;
+    align-items: center;
 }
 
 .card-1{
@@ -84,23 +93,60 @@ button{
     height: 380px;
 }
 
+/** Info styling */
 .info{
+    padding-top: 30px;
     text-align: center;
-    align-items: center;
+    //align-items: center;
 }
 
 .box{
     display: flex;
-    justify-content: space-evenly;
+    padding-top: 17px;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.box .box-1{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
 }
+
+.box-1 img{
+    max-width: 100%;
+    height: 40%;
+    border-radius: 30px;
+}
+
+
+
+
+/**
 .box-1{
     border: 2px solid orange;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
 }
 
 .box-2{
-    border: 2px solid rgb(41, 29, 6);
+    border: 2px solid #e100ff;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
 }
 
-.box-1{
-    border: 2px solid orange;
+.box-3{
+    border: 2px solid #0048ff;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
 }
+
+.box-4{
+    border: 2px solid #65d900;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+} */
