@@ -20,6 +20,8 @@ Welcome to the landing page repository for The Odin Project!
 
 To view the landing page locally:
 
+- Live preview: `https://nzyoka10.github.io/landing_page/`
+
 1. Clone this repository: `git clone https://github.com/landing_page.git`
 2. Open the `index.html` file in your preferred web browser.
 
